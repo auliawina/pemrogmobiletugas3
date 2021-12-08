@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="19dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans_condensed_bold"
+                    android:text="Good \nMorning!"
+                    android:textColor="#0A3C38"
+                    android:textSize="23dp"
+                    android:textStyle="" />
+                <ImageView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/buka_profil"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/avataar" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:elevation="9dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_starbuck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STARBUCK \nFOR LIFE"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/kopi"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="91dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-90dp"
+            android:background="@drawable/tombol"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:gravity="center"
+                android:text="SHOP NOW"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/menu"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/list_minuman"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/mug"/>
+            </LinearLayout>
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="DRINKS"
+                android:textColor="#0A3C38"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/menu"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/list_makanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/foodd"/>
+            </LinearLayout>
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="FOOD"
+                android:textColor="#0A3C38"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/menu"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/list_produk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/produk"/>
+            </LinearLayout>
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="PRODUCT"
+                android:textColor="#0A3C38"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/menu"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/shop"/>
+            </LinearLayout>
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="STORE"
+                android:textColor="#0A3C38"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Coffees"
+                android:textColor="#0A3C38"
+                android:textStyle="bold" />
+            <View
+                android:layout_marginTop="-5dp"
+                android:layout_width="wrap_content"
+                android:visibility="visible"
+                android:layout_height="3dp"
+                android:background="#225730"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Tea" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Drinks" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Bagels" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_marginLeft="100dp"
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/coffe">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/es1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/coffees">
+                <ImageView
+                    android:fontFamily="@font/open_sans_condensed_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/es2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/coffe">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/es1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/coffees">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/es2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

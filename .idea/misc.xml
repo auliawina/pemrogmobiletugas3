@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/balik.xml" value="0.2203125" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/baten.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/bgprofile.xml" value="0.2169230769230769" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/coffe.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/coffees.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/ic_starbuck.xml" value="0.2203125" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/menu.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/starbuck.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android/uts/app/src/main/res/drawable/tombol.xml" value="0.1962962962962963" />
+        <entry key="..\:/Android/uts/app/src/main/res/layout/activity_main.xml" value="0.19722222222222222" />
+        <entry key="..\:/Android/uts/app/src/main/res/layout/keranjang.xml" value="0.25" />
+        <entry key="..\:/Android/uts/app/src/main/res/layout/list_barang.xml" value="0.18333333333333332" />
+        <entry key="..\:/Android/uts/app/src/main/res/layout/profile.xml" value="0.18333333333333332" />
+        <entry key="..\:/Android/uts/app/src/main/res/layout/profile_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/uts/app/src/main/res/layout/row_item_keranjang.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
